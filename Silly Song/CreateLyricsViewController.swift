@@ -52,19 +52,13 @@ class CreateLyricsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        nameField.delegate = self
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+      //  nameField.delegate = self
     }
 
     @IBAction func reset(_ sender: Any) {
         nameField.text = ""
         lyricsView.text = ""
     }
-    
     
     @IBAction func displayLyrics(_ sender: Any) {
         if (nameField.text != "") {

@@ -41,6 +41,7 @@
                                 <connections>
                                     <action selector="displayLyrics:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Xvc-od-2UE"/>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="0Qe-dn-Nh5"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="TdA-jS-kbL"/>
                                 </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XVY-kq-2hF">
